@@ -193,21 +193,27 @@ text-align: left;
 
     margin-top: 100px;
     
-}
-.your-destination p{
-
-    margin-top: 24px;
-    margin-bottom: 24px;
     
 }
+.your-destination img{
+
+    width: 100%;
+    justify-content: space-between;
+    filter: brightness(70%);
+}
+
+.your-destination p{
+    margin-top: 24px;
+}
 
 
-.row-1{
+.row-1, .row-2, .row-3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem 0; 
-    gap:1.3rem;
+    gap:1rem;
     margin-top: 35px;
+    border-radius: 5px;
    
 }
 
@@ -216,18 +222,34 @@ text-align: left;
     
 }
 
-.country-card img{
-    width: 100%;
-    justify-content: space-between;
-}
 
 .country{
     position: absolute;
     top: 50%;
     left: 50%;
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     transform: translate(-50%, -50%);
 }
+
+.row-2{
+    margin-top: -3px;
+    grid-template-columns: 0.8fr 1fr 0.7fr;
+
+}
+
+.row-2 img{
+    height: 330px;
+
+}
+
+.row-3{
+    margin-top: -3px;
+}
+
+.row-3 img{
+    height: 350px;
+}
+
 
