@@ -257,7 +257,7 @@ text-align: left;
 
 .footer-container{
 background: rgba(19, 19, 24, 0.05);
-padding: 2rem 0;
+padding: 0.5rem 0;
 }
 
 .logo-name {
@@ -294,6 +294,13 @@ padding: 2rem 0;
     font-size: 24px;
     height: 44px;
 }
+#horizontal-rool{
+    border: 1px solid rgba(19, 19, 24, 0.1);
 
+}
+
+.footer-container p{
+    margin-bottom: 50px;
+}
 
 
