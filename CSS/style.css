@@ -303,4 +303,69 @@ padding: 0.5rem 0;
     margin-bottom: 50px;
 }
 
+.hamburger{
+    display: none;
+}
 
+
+/* -----------Mobile Device Media Query----------Responsiveness--------- */
+
+@media screen and (max-width: 600px){
+    .nav-options {
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-bar .logo h3{
+        font-size: 26px;
+    }
+
+    .hamburger i{
+        font-size: 20px;
+    }
+
+    .container{
+        width: 3rem auto;
+    }
+
+    .logo img{
+        width: 45px;
+        height:50px ;
+    }
+
+    .explore-your-travel h3{
+        color: rgb(255, 255, 255);
+        font-size: 2.05rem;
+        font-weight: 800;
+        margin-top: -30px;
+    }
+
+    .explore-your-travel p{
+        width: 60%;
+    }
+    
+    .travel-input{
+        flex-direction: column;
+        width:70%;
+        margin: auto;
+    }
+
+    .travel-input input,
+    .travel-input select,
+    .travel-input button{
+        width: 100%;
+        margin: 1rem 20px;
+        
+    }
+   
+    .explore-container .travel-input .one { 
+       
+        width:85%;
+        align-items: center;
+        margin-left: -70px;      
+    }
+    
+} 
