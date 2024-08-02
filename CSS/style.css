@@ -336,6 +336,8 @@ padding: 0.5rem 0;
         height:50px ;
     }
 
+    /* EXPLORE YOUR TRAVEL----------- */
+
     .explore-your-travel h3{
         color: rgb(255, 255, 255);
         font-size: 2.05rem;
@@ -344,7 +346,8 @@ padding: 0.5rem 0;
     }
 
     .explore-your-travel p{
-        width: 60%;
+        width: 70%;
+        text-align: center;
     }
     
     .travel-input{
@@ -367,5 +370,62 @@ padding: 0.5rem 0;
         align-items: center;
         margin-left: -70px;      
     }
+
+    .popular-section {
+       display: grid;
+       grid-template-columns: 1fr;
+       height: 100%;
+    }
+
+    .image img{
+        margin-top: -20px;
+    }
+
+    .text-content{
+        padding: 10PX;
+    }
+
+    .text-content .btn-primary{
+        margin-top: 15PX;
+    }
+    .text-content p,
+    .text-content li{
+        line-height: 30px;
+        text-align: justify;
+       
+    }
     
+    .text-content h3{
+        font-size: xx-large;
+    }
+
+    /* YOUR DESTINATION---------- */
+
+    .your-destination .row-1,
+    .your-destination .row-2,
+    .your-destination .row-3{
+        grid-template-columns: 1fr;
+    }
+    /* .your-destination .row-1 .country-card img, */
+    .your-destination .row-2 .country-card img,
+    .your-destination .row-3 .country-card img{
+        width: 335px;
+        height: 176px;
+    }
+
+
+
+    .your-destination h3{
+        font-size: 28px;
+    }
+    .your-destination p{
+        text-align:center;
+    }
+
+    .your-destination .country{
+        font-size: x-large;
+        margin-top: -3px;
+    }
+
+
 } 
